@@ -124,17 +124,19 @@ audio::-webkit-media-controls-current-time-display {
     color: var(--color-principal);
     background-color: var(--color-secundario);
     justify-content: center;
-    padding: 30px 0;
+    padding: 30px 0px;
     margin: 0;
+    border: 2px solid red;
   }
 
 .bloque {
+    border: 2px solid red;
     text-align: center;
     margin: 0 10px; /* Añadido espacio entre bloques para mejorar la apariencia */
     }
 
 .numero {
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: 400;
     }
 
